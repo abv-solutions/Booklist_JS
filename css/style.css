@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+}
+hr {
+  border-color: #ddd;
+}
+.txt-type > .txt {
+  border-right: 0.05rem solid #888;
+}
+#book-list {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.stars-outer::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-weight: 200;
+  color: #ccc;
+}
+.stars-inner::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-weight: 900;
+  color: #face00;
+}
+@media (max-width: 1000px) {
+  .company {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .company {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .table tr > *:nth-child(4), .number-rating {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .table tr > *:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .company {
+    font-size: 1.4rem;
+  }
+}
