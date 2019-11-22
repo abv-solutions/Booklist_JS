@@ -1,0 +1,24 @@
+{
+  "name": "Booklist_JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abv-solutions/Booklist_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abv-solutions/Booklist_JS/issues"
+  },
+  "homepage": "https://abv-solutions.github.io/Booklist_JS",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
